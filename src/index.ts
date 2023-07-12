@@ -11,7 +11,7 @@ const copyright = `
 // 创建Vite插件
 export default function insertCopyright() {
     return {
-        name: 'vite-insert-copyright',
+        name: 'vite-copyright-injector',
         transform(code: string, id: string) {
             // 如果文件是一个JS文件，则在文件顶部添加版权信息
             if (id.endsWith('.js')) {

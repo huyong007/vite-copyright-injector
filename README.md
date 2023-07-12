@@ -17,9 +17,9 @@ vite-copyright-injector is a plugin specifically created for Vite.js. Its main f
 Install using npm or yarn:
 
 ```bash
-npm install vite-insert-copyright --save-dev
+npm install vite-copyright-injector --save-dev
 # or
-yarn add vite-insert-copyright -D
+yarn add vite-copyright-injector -D
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Import and use the plugin in your `vite.config.js` or `vite.config.ts` file:
 
 ```javascript
 import { defineConfig } from 'vite'
-import copyright from 'vite-insert-copyright'
+import copyright from 'vite-copyright-injector'
 
 export default defineConfig({
   plugins: [

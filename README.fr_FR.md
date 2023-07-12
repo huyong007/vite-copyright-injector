@@ -17,9 +17,9 @@ vite-copyright-insérer est un plugin spécialement créé pour Vite.js. Sa prin
 Installez en utilisant npm ou yarn :
 
 ```bash
-npm install vite-insert-copyright --save-dev
+npm install vite-copyright-injector --save-dev
 # ou
-yarn add vite-insert-copyright -D
+yarn add vite-copyright-injector -D
 ```
 
 ## Utilisation
@@ -28,7 +28,7 @@ Importez et utilisez le plugin dans votre fichier `vite.config.js` ou `vite.conf
 
 ```javascript
 import { defineConfig } from 'vite'
-import copyright from 'vite-insert-copyright'
+import copyright from 'vite-copyright-injector'
 
 export default defineConfig({
   plugins: [

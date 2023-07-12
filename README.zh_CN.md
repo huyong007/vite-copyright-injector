@@ -17,9 +17,9 @@ vite-copyright-injector 是一个专为 Vite.js 创建的插件，它的主要�
 使用 npm 或者 yarn 安装：
 
 ```bash
-npm install vite-insert-copyright --save-dev
+npm install vite-copyright-injector --save-dev
 # or
-yarn add vite-insert-copyright -D
+yarn add vite-copyright-injector -D
 ```
 
 ## 使用
@@ -28,7 +28,7 @@ yarn add vite-insert-copyright -D
 
 ```javascript
 import { defineConfig } from 'vite'
-import copyright from 'vite-insert-copyright'
+import copyright from 'vite-copyright-injector'
 
 export default defineConfig({
   plugins: [
