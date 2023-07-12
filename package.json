@@ -1,0 +1,16 @@
+{
+  "name": "vite-copyright-injector",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:huyong007/vite-copyright-injector.git",
+  "author": "huyong007 <1341696804@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "rollup": "^3.26.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.3"
+  }
+}
