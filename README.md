@@ -1,5 +1,5 @@
 # vite-copyright-injector
-[English](./zh_CN.md) | **英文** | [Français](./README.fr_FR.md)
+**English** | [中文](./README.zh_CN.md) | [Français](./README.fr_FR.md)
 
 ## Description
 
